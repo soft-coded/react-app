@@ -5,8 +5,8 @@ import $ from "jquery"
 function Card(props){
     const [hovered,setHover]=useState(false)
     function mouseover(e){
-        setHover(true)
         $(e.target).children(".arrow").fadeIn(300).css("display","flex")
+        setHover(true)
     }
     function mouseout(e){
         $(e.target).children(".arrow").fadeOut(300)

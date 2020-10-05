@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: black;
+    background-image: url("https://www.transparenttextures.com/patterns/back-pattern.png");
+    color: white;
+}
+.inner{
+    max-width: 1000px;
+    padding: 0 30px;
+    margin: auto;
+}
