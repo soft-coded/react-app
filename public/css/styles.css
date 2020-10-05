@@ -43,15 +43,38 @@ a{
     color: inherit;
 }
 .land-card{
-    max-width: 50%;
+    /* max-width: 50%; */
     height: 100%;
     padding: 20px;
     border: 2px solid white;
     border-radius: 10px;
     margin: 0 10px;
+    transition: 0.5s ease-in-out;
+    position: relative;
+}
+.notes-hover{
+    background-color: black;
+    background-image: url("https://www.transparenttextures.com/patterns/gplay.png"), linear-gradient(-45deg, rgba(255, 255, 0, 0.61), rgba(255, 68, 0, 0.877));
+    height: 200%;
+}
+.todo-hover{
+    background-color: black;
+    background-image: url("https://www.transparenttextures.com/patterns/gradient-squares.png"),radial-gradient(at bottom left,#ff0d0d,#682834);
+    height: 200%;
 }
 .land-card-title{
     margin-bottom: 20px;
+}
+.arrow{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+.create{
+    font-size: 2.5rem;
 }
 /* Main end  */
 
