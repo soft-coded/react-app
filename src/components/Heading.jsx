@@ -1,6 +1,4 @@
-import React, { useState } from "react"
-import ArrowDownwardIcon from '@material-ui/icons/ArrowDownward';
-import $ from "jquery"
+import React from "react"
 
 function Heading(){
     return <header>
