@@ -5,6 +5,7 @@ import LandCard from "./components/LandCard"
 
 function App(){
     return <section className="inner land-sec">
+        <link rel="stylesheet" href="css/styles.css"/>
         <Heading />
         <div className="flex">
             <LandCard hoverClass="notes-hover" link="/notes" title="Notes" desc="Click here to make some notes" />

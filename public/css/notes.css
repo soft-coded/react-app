@@ -9,11 +9,42 @@ html{
 }
 body{
     background-color: black;
-    background-image: url("https://www.transparenttextures.com/patterns/back-pattern.png");
+    background-image: url("https://www.transparenttextures.com/patterns/gplay.png"), linear-gradient(-45deg, rgba(255, 255, 0, 0.61), rgba(255, 68, 0, 0.877));
     color: white;
 }
 .inner{
     max-width: 1000px;
     padding: 0 30px;
+    margin: auto;
+}
+/* Main  */
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.new-note{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.new-note input{
+    width: 700px;
+    height: 100px;
+    border: none;
+    border-radius: 10px;
+}
+::placeholder{
+    text-align: center;
+}
+
+/* Main end  */
+
+
+/* Footer */
+footer{
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
     margin: auto;
 }
